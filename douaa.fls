@@ -1,0 +1,74 @@
+PWD c:\Users\douaa\coding
+INPUT C:\Users\T470S\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\douaa\coding\douaa.tex
+OUTPUT douaa.log
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\douaa.aux
+INPUT .\douaa.aux
+INPUT douaa.aux
+OUTPUT douaa.aux
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT .\download (5) (1).jpeg
+INPUT .\download (5) (1).jpeg
+INPUT .\download (5) (1).jpeg
+INPUT .\download (5) (1).jpeg
+OUTPUT douaa.pdf
+INPUT .\download (5) (1).jpeg
+INPUT .\download (5) (1).jpeg
+INPUT .\download (5) (1).jpeg
+INPUT .\USTHB.png
+INPUT .\USTHB.png
+INPUT .\USTHB.png
+INPUT .\USTHB.png
+INPUT .\USTHB.png
+INPUT .\USTHB.png
+INPUT .\USTHB.png
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Users\T470S\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\8f8d68b076891232202111f579883c7b.jpg
+INPUT .\8f8d68b076891232202111f579883c7b.jpg
+INPUT .\8f8d68b076891232202111f579883c7b.jpg
+INPUT .\8f8d68b076891232202111f579883c7b.jpg
+INPUT .\8f8d68b076891232202111f579883c7b.jpg
+INPUT .\8f8d68b076891232202111f579883c7b.jpg
+INPUT .\8f8d68b076891232202111f579883c7b.jpg
+INPUT douaa.aux
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\T470S\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb

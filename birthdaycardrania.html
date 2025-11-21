@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Birthday Card </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #f3a2ad;          
+      --text-brown: #8f6f6a;  
+      --cake-main: #b0897a;   
+      --cake-dk: #987167;     
+      --plate: #fff5ea;       
+      --icing: #fff7ee;       
+    }
+
+    /* Reset & layout */
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:var(--bg);
+      font-family:"Poppins",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+   
+    .card-wrap{
+      width:100%;
+      max-width:760px;
+      padding:30px 20px 70px 20px;
+      text-align:center;
+    }
+
+    
+    .card-svg{
+      width:100%;
+      max-width:520px;
+      height:auto;
+      display:block;
+      margin: 0 auto;
+      filter: drop-shadow(0 6px 10px rgba(0,0,0,0.08));
+    }
+
+    
+    .caption{
+      margin-top:28px;
+      font-style:italic;
+      font-weight:600;
+      font-size:34px;
+      color:var(--text-brown);
+      line-height:1;
+    }
+    .name{
+      margin-top:20px;
+      font-style:italic;
+      font-weight:500;
+      font-size:22px;
+      color:var(--text-brown);
+      opacity:0.95;
+    }
+
+    
+    @media (max-width:420px){
+      .caption{font-size:22px}
+      .name{font-size:18px}
+    }
+  </style>
+</head>
+<body>
+  <div class="card-wrap">
+
+    
+    <svg class="card-svg" viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+      <defs>
+        
+        <radialGradient id="flameGrad" cx="50%" cy="20%" r="60%">
+          <stop offset="0%"  stop-color="#fff27a"/>
+          <stop offset="30%" stop-color="#ffd44a"/>
+          <stop offset="65%" stop-color="#ffb23a"/>
+          <stop offset="100%" stop-color="#ff8b34"/>
+        </radialGradient>
+
+       
+        <radialGradient id="flameCore" cx="45%" cy="35%" r="45%">
+          <stop offset="0%" stop-color="#fffef1" stop-opacity="1"/>
+          <stop offset="100%" stop-color="#ffd975" stop-opacity="0"/>
+        </radialGradient>
+
+        
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="10" result="blur"/>
+          <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+
+        
+        <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+          <feGaussianBlur stdDeviation="1" result="b"/>
+          <feComposite in="SourceGraphic" in2="b" operator="over"/>
+        </filter>
+      </defs>
+
+      
+      <rect x="120" y="460" width="360" height="6" rx="3" fill="#fff9f4" />
+
+      
+      <g transform="translate(0,0)">
+        <rect x="140" y="280" rx="16" width="320" height="160" fill="var(--cake-main)"/>
+        
+        <rect x="140" y="280" width="320" height="34" rx="12" fill="var(--cake-dk)" opacity="0.95"/>
+        <rect x="140" y="318" width="320" height="34" rx="12" fill="#a87b6e" opacity="0.95"/>
+        <rect x="140" y="356" width="320" height="34" rx="12" fill="var(--cake-dk)" opacity="0.95"/>
+        <rect x="140" y="394" width="320" height="34" rx="12" fill="#a87b6e" opacity="0.95"/>
+      </g>
+
+      
+      <path d="
+        M140 280
+        C170 264 210 270 240 270
+        C280 270 310 268 340 274
+        C370 280 410 266 460 280
+        L460 300
+        C435 300 410 318 392 300
+        C380 288 366 322 330 300
+        C306 286 290 320 250 300
+        C216 280 200 300 170 300
+        L140 300 Z
+      " fill="var(--icing)" filter="url(#soft)" />
+
+      
+      <path d="M170 300 C170 338 186 328 186 300" fill="var(--icing)"/>
+      <path d="M320 300 C320 340 340 330 340 300" fill="var(--icing)"/>
+      <path d="M395 300 C395 336 415 328 415 300" fill="var(--icing)"/>
+
+      
+      <g transform="translate(0,0)">
+        
+        <rect x="292" y="220" rx="3" width="16" height="64" fill="#ffffff" />
+        
+        <rect x="292" y="236" width="16" height="6" rx="2" fill="#f0f0f0"/>
+        <rect x="292" y="254" width="16" height="6" rx="2" fill="#f0f0f0"/>
+        
+        <ellipse cx="300" cy="294" rx="24" ry="6" fill="rgba(0,0,0,0.04)"/>
+        
+        <g transform="translate(0,0)">
+          
+          <ellipse cx="300" cy="199" rx="28" ry="18" fill="url(#flameGrad)" opacity="0.14" filter="url(#glow)"/>
+          <path d="M300 200 C308 182 318 170 312 155 C300 135 288 150 296 168 C292 176 296 190 300 200 Z"
+                fill="url(#flameGrad)"/>
+          <path d="M300 190 C304 182 309 176 306 165 C300 154 296 162 298 172 C297 178 300 186 300 190 Z"
+                fill="url(#flameCore)" opacity="0.95"/>
+        </g>
+      </g>
+
+    </svg>
+
+    
+    <div class="caption">happy birthday!</div>
+
+    
+    <div id="name" class="name">Rania</div>
+
+  </div>
+</body>
+</html>
